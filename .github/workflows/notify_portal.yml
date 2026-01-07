@@ -11,6 +11,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.ORG_ADMIN_TOKEN }}
-          repository: your-org/temp_knowledge_portal # ★実際の親リポジトリ名に修正が必要（テンプレート利用時に置換）
+          repository: ${{ github.repository_owner }}/${{ vars.PORTAL_REPO_NAME }}
           event-type: app-update
           client-payload: '{"app_name": "${{ github.event.repository.name }}", "version": "${{ github.event.release.tag_name }}"}'
