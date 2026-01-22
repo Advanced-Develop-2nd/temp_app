@@ -1,38 +1,55 @@
-site_name: <Application Name>
-site_description: <Application Description>
-repo_name: <Application Repository Name>
-repo_url: <Application Repository URL>
+# Python virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
 
-# MkDocs Material テーマの設定
-theme:
-  name: material
-  language: ja
-  highlightjs: true
-  hljs_languages:
-    - python
-    - yaml
-    - bash
-  features:
-    # - navigation.tabs
-    # - navigation.top
-    - search.highlight
-    - search.suggestions
-    - content.code.copy
-    - content.code.select
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+.DS_Store
+Thumbs.db
 
-# Markdown 拡張機能の設定
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences  # ★変更: シンプルな記述のみにします
-  - toc:
-      permalink: true
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.bak
+*.backup
 
-# # Mermaid.js の設定 (CDNから読み込み)
-# extra_javascript:
-#   - https://unpkg.com/mermaid/dist/mermaid.min.js
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.~*
 
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.coverage
+*.lcov
+*.lcov.info
 
-# ナビゲーションメニューの設定
-nav:
-  - Home: index.md
+# Environment variables
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
