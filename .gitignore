@@ -53,3 +53,7 @@ ENV/
 env/
 env.bak/
 venv.bak/
+
+# Development
+
+docs/memo.md

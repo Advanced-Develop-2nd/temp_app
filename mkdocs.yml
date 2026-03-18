@@ -1,7 +1,7 @@
 site_name: <Application Name>
 site_description: <Application Description>
-repo_name: <Repository Name>
-repo_url: <Repository Link>
+# repo_name: <Repository Name>
+# repo_url: <Repository Link>
 
 # テーマ設定
 theme:
@@ -66,8 +66,7 @@ extra_javascript:
   - javascripts/mathjax.js   # MathJax用のヘルパースクリプトを推奨
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
+
 # ナビゲーションメニューの設定
 nav:
   - Home: index.md
-
-
