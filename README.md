@@ -1,5 +1,7 @@
 # [App Name] Application Repository
 
+App単体運用の場合は、.github/workflows/notify_portal.yml を削除してください。
+
 ## 🛠 開発ルール (Docs as Code)
 
 ### ブランチ命名規則
